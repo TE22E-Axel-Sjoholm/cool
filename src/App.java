@@ -12,6 +12,14 @@ public class App {
         System.out.println("Kvoten Är: "+DbKvot);
         System.out.println("Kvoten Är: "+intKvot);
 
-        
+        tangentbord.nextLine();
+
+        System.out.print("Ange ett substantiv: ");
+        String substantiv = tangentbord.nextLine();
+        System.out.print("Ange substantivets pluraländelse: ");
+        String pluraländelse = tangentbord.nextLine();
+        System.out.println("En "+substantiv+", flera "+substantiv+pluraländelse);
+        tangentbord.close();
+
     }  
 }
